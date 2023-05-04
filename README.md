@@ -39,3 +39,8 @@ If you have any suggestions for additional cheats to add to the plugin, please f
 ## License
 
 Hacks is licensed under the [MIT License](https://github.com/Inaay/Hacks/blob/main/LICENSE). Please see the [LICENSE](https://github.com/Inaay/Hacks/blob/main/LICENSE) file for more information.
+
+### Todo:
+* Maybe a module form Combat, Movement, Player
+* Permissions for each hacks
+* Maybe use RayTrace for Reach

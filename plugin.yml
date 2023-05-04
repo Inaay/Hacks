@@ -1,0 +1,12 @@
+name: Hacks
+version: 0.6.9-BETA
+api: [4.0.0]
+main: Inaayat\Hacks\Main
+author: Inaayat
+description: Server-side hacks
+website: https://github.com/Inaay/Hacks
+
+permissions:
+  hacks.command:
+    default: op
+    description: Server-side hacks/cheats

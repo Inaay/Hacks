@@ -1,4 +1,5 @@
 # Hacks Plugin for PocketMine
+[![](https://poggit.pmmp.io/shield.state/Hacks)](https://poggit.pmmp.io/p/Hacks) [![](https://poggit.pmmp.io/shield.dl.total/Hacks)](https://poggit.pmmp.io/p/Hacks)
 
 Hacks is a server-side cheat plugin for PocketMine that includes various cheats such as Chest Stealer, Hitbox, Killaura, NoFall, Nuker, Reach, Scaffold, Speed, and Velocity.
 

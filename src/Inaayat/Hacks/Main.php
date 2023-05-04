@@ -26,15 +26,12 @@ use pocketmine\utils\TextFormat;
 
 class Main extends PluginBase {
 
+    public const PREFIX = TextFormat::GRAY . "[" . TextFormat::BOLD . TextFormat::RED . "InaaHacks" . TextFormat::RESET . TextFormat::GRAY . "] " . TextFormat::RESET;
+
 	/**
 	 * @var self
 	 */
 	private static $instance;
-
-	/**
-	 * @var array
-	 */
-	public const PREFIX = TextFormat::GRAY . "[" . TextFormat::BOLD . TextFormat::RED . "InaaHacks" . TextFormat::RESET . TextFormat::GRAY . "] " . TextFormat::RESET;
 
 	/**
 	 * @var array

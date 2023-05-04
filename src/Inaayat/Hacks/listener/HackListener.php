@@ -72,8 +72,7 @@ class HackListener implements Listener {
 			$reach = $this->plugin->getReachRange($player);
 			if ($packet instanceof AnimatePacket && $packet->action === AnimatePacket::ACTION_SWING_ARM) {
 				foreach ($player->getWorld()->getEntities() as $target) {
-					if (!$target === $player)
-						continue;
+					if ($target === $player) continue;
 					$pos1 = $player->getEyePos();
 					$pos2 = $target->getEyePos();
 					$vector = $pos2->subtract($pos1->getX(), $pos1->getY(), $pos1->getZ());

@@ -41,7 +41,7 @@ class HackCommand extends Command implements PluginOwned {
 	 */
 	public function execute(CommandSender $sender, string $commandLabel, array $args): bool {
 		if ($sender instanceof Player) {
-			$sender->sendForm(new HackForm($sender));
+			$sender->sendForm(new HackForm());
 		} else {
 			$sender->sendMessage(Main::PREFIX . TextFormat::RED . "You must be in-game to use this command!");
 		}

@@ -24,9 +24,9 @@ Hacks is a server-side cheat plugin for PocketMine that includes various cheats 
 
 ## Preview
 
-![image](https://user-images.githubusercontent.com/125380942/236167872-982e72d3-cf25-4ba5-9708-76a69aa06989.png)
-![image](https://user-images.githubusercontent.com/125380942/236168190-6b766acc-bc9e-465e-9dc6-93f2cbfda621.png)
-![image](https://user-images.githubusercontent.com/125380942/236168316-ee9fdfb7-ae2d-47f0-80ee-fa6284abceca.png)
+![image](https://user-images.githubusercontent.com/125380942/236388393-1e97cdf1-252e-4a8c-9bd9-57083ee35274.png)
+![image](https://user-images.githubusercontent.com/125380942/236388470-01df84a2-6d29-496f-8980-c5d9cdbd6296.png)
+![image](https://user-images.githubusercontent.com/125380942/236388548-ab457008-31cd-4d28-948e-56c6d98342d0.png)
 ![image](https://user-images.githubusercontent.com/125380942/236168878-d5b8688f-598d-43ee-966f-973b7ceb036a.png)
 
 ## Bugs and Issues
@@ -42,7 +42,6 @@ If you have any suggestions for additional cheats to add to the plugin, please f
 Hacks is licensed under the [MIT License](https://github.com/Inaay/Hacks/blob/main/LICENSE). Please see the [LICENSE](https://github.com/Inaay/Hacks/blob/main/LICENSE) file for more information.
 
 ### Todo:
-* Maybe a module form Combat, Movement, Player
 * Permissions for each hacks
 * Use RayTrace for Reach
 * Use Task for Scaffold

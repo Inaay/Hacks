@@ -44,4 +44,5 @@ Hacks is licensed under the [MIT License](https://github.com/Inaay/Hacks/blob/ma
 ### Todo:
 * Maybe a module form Combat, Movement, Player
 * Permissions for each hacks
-* Maybe use RayTrace for Reach
+* Use RayTrace for Reach
+* Use Task for Scaffold

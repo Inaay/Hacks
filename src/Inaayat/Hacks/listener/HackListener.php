@@ -205,7 +205,7 @@ class HackListener implements Listener {
 		if (!$player instanceof Player || !$this->plugin->hasScaffold($player)) return;
 		$blockInHand = $player->getInventory()->getItemInHand()->getBlock();
 		if (!$blockInHand instanceof Block) return;
-		if ($blockInHand->getId() === VanillaBlocks::AIR()->getId()) return;
+		if ($blockInHand->getTypeId() === VanillaBlocks::AIR()->getTypeId()) return;
 		$blockBelowPos = $player->getPosition()->floor()->subtract(0, 1, 0);
 		if ($player->getWorld()->getBlock($blockBelowPos)->canBeReplaced()) {
 			$player->getWorld()->setBlock($blockBelowPos, $blockInHand, true);
@@ -236,7 +236,7 @@ class HackListener implements Listener {
 					abs($z - $block->getPosition()->getZ()) <= $radius) {
 					for ($y = $minY; $y <= $maxY; ++$y) {
 						$targetBlock = $world->getBlockAt($x, $y, $z);
-						if ($targetBlock->getId() !== VanillaBlocks::AIR()->getId() &&
+						if ($targetBlock->getTypeId() !== VanillaBlocks::AIR()->getTypeId() &&
 							abs($y - $block->getPosition()->getY()) <= $radius) {
 							$world->useBreakOn($targetBlock->getPosition()->asVector3());
 						}

@@ -1,6 +1,6 @@
 name: Hacks
-version: 0.7.0-BETA
-api: [4.0.0]
+version: 0.8.0-BETA
+api: [5.0.0]
 main: Inaayat\Hacks\Main
 author: Inaayat
 description: Server-side hacks
